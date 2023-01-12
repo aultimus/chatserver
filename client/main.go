@@ -15,8 +15,8 @@ import (
 	"github.com/satori/uuid"
 )
 
-// It was not strictly necessary to write a client given that we can use
-// redis-cli. However, it is a good exericise in cementing our understanding
+// It was not strictly necessary to write a client as we could use a 3rd party one.
+// However, it is a good exericise in cementing our understanding
 // of how the protocol works and allows us to have control of both sides
 
 func main() {
